@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #181818;
+    --background-card: #121212;
+    --white: #fff;
+    --green: #2DCC70;
+    --red: #FF3F3F;
+    --gray: #A0A8B1;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #111111;
+}
+
+.futapp-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 74px;
+    width: 100vw;
+    background: #0C0C0C;
+}
+
+.futapp-header div:first-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 432px;
+    height: 78px;
+}
+
+.futapp-header  > div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 302px;
+    height: 78px;
+}
+
+.futapp-header a {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--gray);
+    text-decoration: none;
+    padding: 27px 8px;
+}
+
+.futapp-header a:focus {
+    color: var(--green);
+    border-bottom: 4px solid var(--green);
+}
+
+.icons {
+    color: var(--gray);
+    font-size: 20px;
+}
+
+
+
+/* UserProfile */
+
+.userprofile-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+}
+
+.userprofile-container img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.userprofile-container div {
+    display: flex;
+    flex-direction: column;
+}
+
+.userprofile-container span:first-child {
+    font-size: 12px;
+    color: var(--gray);
+    font-weight: 500;
+}
+
+.userprofile-container p {
+    font-size: 10px;
+    color: var(--gray);
+    font-style: italic;
+}
+
+.userprofile-container span:last-child {
+    align-self: flex-start;
+    transform: translateY(30%);
+}
+
+
