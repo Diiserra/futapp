@@ -1,0 +1,41 @@
+.futappHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 74px;
+    width: 100vw;
+    background: #0C0C0C;
+}
+
+.futappHeader img {
+    width: 40px;
+}
+
+.futappHeader div:first-child {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 432px;
+    height: 78px;
+}
+
+.futappHeader  > div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 302px;
+    height: 78px;
+}
+
+.futappHeader a {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--gray);
+    text-decoration: none;
+    padding: 27px 8px;
+}
+
+.futappHeader a:focus {
+    color: var(--green);
+    border-bottom: 4px solid var(--green);
+}

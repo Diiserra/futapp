@@ -1,0 +1,47 @@
+/* PlayersList */
+
+.playerslistContainer {
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 546px;
+    background: var(--background);
+    border-radius: 6px;
+    margin: 16px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.playerslistContainer::-webkit-scrollbar {
+    width: 6px;
+}
+
+.playerslistContainer::-webkit-scrollbar-thumb {
+    background-color: #0f0f0f;
+}
+
+.playerslistContainer::-webkit-scrollbar-track {
+    background-color: var(--background);
+}
+
+.playerslistContainer span:first-child {
+    font-size: 14px;
+    color: var(--gray);
+    font-weight: 500;
+    margin: 28px 
+}
+
+.playerslistContainer input {
+    width: 100%;
+    height: 44px;
+    margin: 6px;
+    padding-left: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: var(--gray);
+    background: var(--background-card);
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}

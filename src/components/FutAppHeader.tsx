@@ -1,11 +1,11 @@
 import { UserProfile } from "./UserProfile";
-
+import styles from '../styles/FutAppHeader.module.css'
 
 export function FutAppHeader() {
     return (
-        <header className="futapp-header">
+        <header className={styles.futappHeader}>
             <div>
-                <img src="" alt="FutApp" />
+                <img src="./public/logo.svg" alt="FutApp" />
                 <a href="#">Jogos</a>
                 <a href="#">Membros</a>
                 <a href="#">Estatísticas</a>

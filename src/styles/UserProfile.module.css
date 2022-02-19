@@ -1,0 +1,36 @@
+/* UserProfile */
+
+.userprofileContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+}
+
+.userprofileContainer img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.userprofileContainer div {
+    display: flex;
+    flex-direction: column;
+}
+
+.userprofileContainer span:first-child {
+    font-size: 12px;
+    color: var(--gray);
+    font-weight: 500;
+}
+
+.userprofileContainer p {
+    font-size: 10px;
+    color: var(--gray);
+    font-style: italic;
+}
+
+.userprofile-container span:last-child {
+    align-self: flex-start;
+    transform: translateY(30%);
+}
