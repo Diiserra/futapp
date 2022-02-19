@@ -8,34 +8,26 @@
     height: 546px;
     background: var(--background);
     border-radius: 6px;
+    margin: 18px 0 18px 18px;
+}
+
+.playerslistContainer > div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 16px;
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
-
-.playerslistContainer::-webkit-scrollbar {
-    width: 6px;
-}
-
-.playerslistContainer::-webkit-scrollbar-thumb {
-    background-color: #0f0f0f;
-}
-
-.playerslistContainer::-webkit-scrollbar-track {
-    background-color: var(--background);
 }
 
 .playerslistContainer span:first-child {
     font-size: 14px;
     color: var(--gray);
     font-weight: 500;
-    margin: 28px 
+    margin-bottom: 8px;
 }
 
 .playerslistContainer input {
     width: 100%;
     height: 44px;
-    margin: 6px;
     padding-left: 8px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -45,3 +37,26 @@
     border: none;
     outline: none;
 }
+
+.playerslistScrollArea {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 432px;
+}
+
+.playerslistScrollArea::-webkit-scrollbar {
+    width: 6px;
+}
+
+.playerslistScrollArea::-webkit-scrollbar-thumb {
+    background-color: #0f0f0f;
+}
+
+.playerslistScrollArea::-webkit-scrollbar-track {
+    background-color: var(--background);
+}
+
+
+
+
+

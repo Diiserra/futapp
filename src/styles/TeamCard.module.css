@@ -1,0 +1,16 @@
+.teamCardContainer {
+    display: flex;
+    flex-direction: column;
+    width: 40% ;
+    height: 100%;
+    padding: 16px;
+    background-color: var(--background);
+}
+
+.teamCardContainer h1 {
+    color: var(--white);
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+

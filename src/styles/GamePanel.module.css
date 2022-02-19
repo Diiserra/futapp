@@ -1,0 +1,58 @@
+.gamePanelContainer {
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    background: var(--background);
+    margin: 18px 0;
+    border-radius: 6px;
+}
+
+.gamePanelContainer > div:first-child {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gamePanelContainer > div span:first-child {
+    font-size: 24px;
+    color: var(--white);
+    font-weight: 600;
+    margin-left: 14px;
+}
+
+.gamePanelContainer div:first-child span:last-child {
+    font-size: 13px;
+    color: var(--white);
+    font-weight: 300;
+    margin-left: 14px;
+
+}
+
+.gamePanelScrollArea  {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 456px;
+    background: var(--background);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.gamePanelScrollArea::-webkit-scrollbar {
+    width: 6px;
+}
+
+.gamePanelScrollArea::-webkit-scrollbar-thumb {
+    background-color: #0f0f0f;
+}
+
+.gamePanelScrollArea::-webkit-scrollbar-track {
+    background-color: var(--background);
+}
+
+
