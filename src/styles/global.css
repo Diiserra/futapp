@@ -33,6 +33,11 @@ body {
     font-size: 20px;
 }
 
+.greenIcon {
+    font-size: 20px;
+    color: var(--green);
+}
+
 
 
 

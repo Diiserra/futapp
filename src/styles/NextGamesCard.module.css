@@ -1,0 +1,33 @@
+.nextGamesContainer {
+    display: flex;
+    background: var(--background-card);
+    justify-content: space-around;
+    align-items: center;
+    width: 97%;
+    padding: 18px 0;
+    border-radius: 6px;
+    margin-bottom: 14px;
+    font-size: 14px;
+    color: var(--gray);
+}
+
+.nextGamesContainer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nextGamesContainer div:first-child{
+    display: flex;
+    justify-content: space-between;
+    width: 286px;
+}
+
+.nextGamesContainer span {
+    margin-left: 6px
+}
+
+.nextGamesContainer img {
+    width: 30px;
+}
+
